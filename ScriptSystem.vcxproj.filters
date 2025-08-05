@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{f7f9ac5e-65e2-41ea-9417-297eb0929af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\input">
+      <UniqueIdentifier>{bda22fb5-d6b5-4fdc-aa9f-ca0e4f704a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Script">
+      <UniqueIdentifier>{3107b143-022e-462f-9dad-42b4627c4cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Script\Command">
+      <UniqueIdentifier>{2b4dae69-9a9a-43b2-8a7e-84c4d94172d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Script">
+      <UniqueIdentifier>{994f31b5-71f7-4535-b250-718f814e9738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Script\Command">
+      <UniqueIdentifier>{762e2fce-a250-4abf-8aa2-d68c9ca05ce4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Script.cpp">
+      <Filter>ソース ファイル\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ScriptSystem.cpp">
+      <Filter>ソース ファイル\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandClear.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandDraw.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandJump.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandLabel.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandMessage.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandSelect.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandString.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandTime.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Command\CommandWait.cpp">
+      <Filter>ソース ファイル\Script\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input\InputSystem.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Script.h">
+      <Filter>ヘッダー ファイル\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ScriptSystem.h">
+      <Filter>ヘッダー ファイル\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandBase.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandClear.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandDraw.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandJump.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandLabel.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandMessage.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandSelect.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandString.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandTime.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Command\CommandWait.h">
+      <Filter>ヘッダー ファイル\Script\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
