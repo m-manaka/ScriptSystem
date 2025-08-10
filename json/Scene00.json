@@ -1,0 +1,380 @@
+[
+	{
+		"command": "handle",
+		"parameter00": "res/enemy1.png",
+		"parameter01": "ENEMY1",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "handle",
+		"parameter00": "res/enemy2.png",
+		"parameter01": "ENEMY2",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "START",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "これは簡易ADVシステム",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "select",
+		"parameter00": "もっと見る",
+		"parameter01": "NEXT",
+		"parameter02": "最初から",
+		"parameter03": "START"
+	},
+	{
+		"command": "",
+		"parameter00": "",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "NEXT",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "機能の説明",
+		"parameter01": "出来る事は、文章の表示、文章の選択",
+		"parameter02": "そして文章進行の管理",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "select",
+		"parameter00": "さらに詳しく",
+		"parameter01": "DETAIL",
+		"parameter02": "もういいや",
+		"parameter03": "END"
+	},
+	{
+		"command": "",
+		"parameter00": "",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "DETAIL",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "Json 形式による簡易スクリプトを実装していて",
+		"parameter01": "プログラマが拡張すればサウンドを鳴らしたり",
+		"parameter02": "描画も出来る様になるよ",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "select",
+		"parameter00": "拡張に付いて更に詳しく",
+		"parameter01": "EXTENSION",
+		"parameter02": "完全に理解した",
+		"parameter03": "END"
+	},
+	{
+		"command": "",
+		"parameter00": "",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "EXTENSION",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "DXライブラリの関数",
+		"parameter01": "LoadGraphやLoadSoundMesの機能をコマンドに追加して",
+		"parameter02": "更にそれらのハンドルを扱うコマンドも追加すると良い",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "draw",
+		"parameter00": "ENEMY1",
+		"parameter01": 100,
+		"parameter02": 100,
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "LoadGraphのハンドルを扱うコマンドは",
+		"parameter01": "パラメーターにxとyを指定出来ると好きな位置に描画出来る",
+		"parameter02": "更にmoveみたいなコマンドを追加すればカットインとかも実装可能！",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "draw",
+		"parameter00": "ENEMY2",
+		"parameter01": 500,
+		"parameter02": 100,
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "PlayMusic関数の機能も追加すればBGM機能も足せる",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "ゲームの仕様にADVパートが多いチームは",
+		"parameter01": "こういう簡易スクリプトのシステムをメインで作成して",
+		"parameter02": "ゲームパートはプランナーが構築するのもあり",
+		"parameter03": "つまりTiledのADV版みたいな感じ"
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "clear",
+		"parameter00": "ENEMY1",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "clear",
+		"parameter00": "ENEMY2",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "select",
+		"parameter00": "細かい部分も聞く",
+		"parameter01": "PATTERN",
+		"parameter02": "もう、お腹いっぱい",
+		"parameter03": "END"
+	},
+	{
+		"command": "",
+		"parameter00": "",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "PATTERN",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "waitコマンドは、パラメーターによって二つの挙動をします",
+		"parameter01": "パラメーター無しだとボタン押し待ち",
+		"parameter02": "パラメーターに数値があると、その秒数を待って自動で進行",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 0,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "実際に次は2.5秒待ってみます",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 2500,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "REPEAT",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "messageコマンドは続けて書く事が出来るが、、、",
+		"parameter01": "次のmessageコマンドが実行されると",
+		"parameter02": "前の文章は消えてしまう",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "この文章が表示されると自動で前の文章は消えてしまう",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "select",
+		"parameter00": "もう一回",
+		"parameter01": "REPEAT",
+		"parameter02": "分かった次のコマンドの説明",
+		"parameter03": "LAST"
+	},
+	{
+		"command": "",
+		"parameter00": "",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "LAST",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "最後はjumpコマンドの説明",
+		"parameter01": "selectコマンドでlabelコマンドで作成したラベルに飛ぶが",
+		"parameter02": "選択なしで直接飛ぶのがjumpコマンド",
+		"parameter03": "より複雑なスクリプトの制御が出来るはず"
+	},
+	{
+		"command": "wait",
+		"parameter00": 1500,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "",
+		"parameter00": "",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "label",
+		"parameter00": "END",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "終わりを選択したらどうなる？",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 250,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "知らんのか",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 250,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "message",
+		"parameter00": "また始まる",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "wait",
+		"parameter00": 250,
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	},
+	{
+		"command": "jump",
+		"parameter00": "START",
+		"parameter01": "",
+		"parameter02": "",
+		"parameter03": ""
+	}
+]
